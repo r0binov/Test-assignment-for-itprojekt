@@ -51,7 +51,7 @@ export const ProductInfo = (): JSX.Element => {
                         const quantity = getItemQuantity(data.uuid);
 
                         return(
-                            <Col>
+                            <Col style={{paddingBottom: 8}}>
                                 <CardGroup>
                                     <Col className="text-center" xs={12}  md={12}>
                                         <Card className="d-flex align-items-center justify-content-center"  border="dark" style={{  paddingBottom: 5 }}>
